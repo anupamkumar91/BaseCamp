@@ -1,0 +1,15 @@
+<!DOCTYPE hibernate-mapping PUBLIC 
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+    <hibernate-mapping>
+    <class name="com.midntree.entity.Employee" table="EMP" schema="system">
+    <id name="employeeNo">
+    <generator class="assigned"></generator>
+    </id>
+    <property name="employeeName"></property>
+    <property name="email"></property>
+    <property name="dateOfBirth"></property>
+    <property name="salary"></property>
+    
+    </class>
+    </hibernate-mapping>
